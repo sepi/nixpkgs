@@ -11056,6 +11056,8 @@ let
 
   jack_capture = callPackage ../applications/audio/jack-capture { };
 
+  jack_keyboard = callPackage ../applications/audio/jack-keyboard { };
+
   jack_oscrolloscope = callPackage ../applications/audio/jack-oscrolloscope { };
 
   jack_rack = callPackage ../applications/audio/jack-rack { };
